@@ -3,7 +3,7 @@
 struct node{
     int data;
     struct node *left,*right;
-}*root=NULL,*temp,*newnode,*a[50];
+}*root=NULL,*temp,*newnode,*a[100];
 void create_tree(){
     int i=-1,j=-1,flag=0,c=1;
     newnode=(struct node*)malloc(sizeof(struct node));
