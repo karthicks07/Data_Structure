@@ -23,7 +23,7 @@ void create_tree(){
         newnode->right=NULL;
         i++;
         a[i]=newnode;
-        if(flag==0){
+        if(flag==0){   
             temp=a[j];
             temp->left=newnode;
             flag=1;
